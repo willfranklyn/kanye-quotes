@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.message {
+    margin: 50px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.new-message-button {
+    border: 2px solid #222;
+    background-color: #222;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    margin-bottom: 50px;
+}
+
+.new-message-button:hover {
+    border: 2px solid #ddd;
+    background-color: #ddd;
+    color: black;
+}
